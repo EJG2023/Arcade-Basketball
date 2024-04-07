@@ -5,7 +5,8 @@ using UnityEngine.XR;
 
 public class StartTimerOnKeyPress : MonoBehaviour
 {
-    public Timer timer; // Reference to the Timer script
+    // Reference to the Timer script
+    public Timer timer; 
     public TextMeshProUGUI gameOverText;
     public OVRInput.Button AButton = OVRInput.Button.One;
     public Scoreboard scoreboard;
@@ -13,7 +14,7 @@ public class StartTimerOnKeyPress : MonoBehaviour
 
     void Update()
     {
-        // Check if the space key is pressed
+        // Check if the A button is pressed
         if (OVRInput.GetDown(AButton))
         {
             // Check if the timer is not running or has ended
