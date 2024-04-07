@@ -8,8 +8,10 @@ public class Timer : MonoBehaviour
     public TextMeshProUGUI timerText;
     public TextMeshProUGUI gameOverText; // Reference to the Game Over text
     public float totalTime = 120f;
+
     public float timeRemaining; // Changed access modifier from private to public
     private bool timerRunning = false;
+
     public AudioSource gameOverSound; // Reference to the AudioSource component for game over sound
     public Scoreboard scoreboard;
 
@@ -18,6 +20,7 @@ public class Timer : MonoBehaviour
         timeRemaining = totalTime;
         UpdateTimerDisplay();
     }
+    
 
     void Update()
     {
@@ -33,16 +36,19 @@ public class Timer : MonoBehaviour
         }
     }
 
+    // function to start timer
     public void StartTimer()
     {
         timerRunning = true;
     }
-
+    
+    // function to display timer
     void UpdateTimerDisplay()
     {
         timerText.text = "" + Mathf.FloorToInt(timeRemaining).ToString();
     }
-
+    
+    // function to dictate "game over"
     void EndGame()
     {
         // Stop the timer
@@ -58,17 +64,19 @@ public class Timer : MonoBehaviour
         gameOverText.text = "Game Over";
     }
 
+    // function to check if the timer is running
     public bool IsTimerRunning()
     {
         return timerRunning;
     }
 
-    // Method to add time
+    // function to add time
     public void AddTime(float additionalTime)
     {
         timeRemaining += additionalTime;
     }
 
+    // function to fetch remaining time
     public float GetTimeRemaining()
     {
         return timeRemaining;
