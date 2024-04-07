@@ -21,6 +21,7 @@ public class Scoreboard : MonoBehaviour
         timer = timerComponent;
     }
 
+    // function to increment score when player makes a basket
     public void IncrementScore()
     {
         score++;
@@ -33,17 +34,20 @@ public class Scoreboard : MonoBehaviour
             DisplayHighScore();
         }
     }
-
+    
+    // function to display the score
     void DisplayScore()
     {
         scoreText.text = "" + score.ToString();
     }
 
+    // function to display current highscore
     void DisplayHighScore()
     {
         scoreText2.text = "" + highScore.ToString();
     }
     
+    // function to reset score
      public void ResetScore()
     {
         score = 0;
