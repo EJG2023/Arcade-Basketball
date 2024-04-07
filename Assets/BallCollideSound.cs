@@ -9,6 +9,7 @@ public class BallCollideSound : MonoBehaviour
 
     void Start()
     {
+        // At start of application set the sounds
         audioSource = GetComponent<AudioSource>();
         audioSource.clip = bounceSound;
     }
