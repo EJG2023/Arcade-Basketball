@@ -5,6 +5,7 @@ using TMPro;
 
 public class Scoreboard : MonoBehaviour
 {
+    //Testing commit logs
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI scoreText2;
 
