@@ -21,7 +21,7 @@ public class Timer : MonoBehaviour
         UpdateTimerDisplay();
     }
     
-
+    // a function that updates
     void Update()
     {
         if (timerRunning)
