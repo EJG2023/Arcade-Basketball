@@ -2,6 +2,7 @@
 
 This virtual reality Arcade Basketball game challenges players to shoot as many hoops as possible before the timer ends. Using either Oculus controllers or hand motion tracking, players can experience the excitement of an arcade basketball setup enhanced through immersive VR technology.
 
+---
 **Game Mechanics:**
 
  * **Arcade-Style Challenge**: Modeled after classic arcade basketball, the game adds a VR dimension for increased player engagement.
@@ -9,7 +10,7 @@ This virtual reality Arcade Basketball game challenges players to shoot as many 
  * **Score & Time Extension**: Each successful shot not only scores points but also extends the game’s timer, pushing players to maintain their streak.
  * **Beat the Clock**: The challenge intensifies as players race against the timer, aiming to keep the game going with every basket.
 
-
+---
 
 **Main Features:**
 
@@ -17,7 +18,7 @@ This virtual reality Arcade Basketball game challenges players to shoot as many 
   * **Soundscape Design:** Arcade-inspired sounds and background music heighten immersion.
   * **Flexible Control Methods:** Offers playability with both hands using Oculus VR controllers and hand tracking.
   * **Customized 3D Assets:** Blender was used extensively to tailor and optimize the 3D environment and arcade machine assets, transforming purchased models to fit the game’s design needs and immersive setting.
-
+---
 **Skills Developed:**
 
 * **VR Development with Unity:** Mastered building VR experiences in Unity, focusing on Oculus integration.
@@ -26,7 +27,7 @@ This virtual reality Arcade Basketball game challenges players to shoot as many 
 * **Audio Integration:** Implemented sound effects and music to enhance gameplay.
 * **Physics Simulation in Unity:** Experimented with Unity physics to achieve authentic ball movement and shooting mechanics.
 * **Debugging and Optimization:** Conducted thorough testing to ensure a smooth, glitch-free experience.
-
+---
 **Technologies Utilized:**
 
 * **Unity Engine:** Primary platform for development.
@@ -34,5 +35,5 @@ This virtual reality Arcade Basketball game challenges players to shoot as many 
 * **Blender:** Customized and refined 3D models to align with the game’s aesthetic and functional requirements.
 * **Oculus SDK:** Integrated for VR compatibility and controller functionality.
 
-
+---
 **Youtube link for demo:** https://www.youtube.com/watch?v=JloE7pwZRGY
